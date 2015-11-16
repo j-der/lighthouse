@@ -1,7 +1,7 @@
 LighthouseForum::Application.routes.draw do
 
   resources :posts
-
+  root to: 'posts#index'
   # get 'posts', to: 'posts#index'
   # get 'posts/new', to: 'posts#new'
   # get 'posts/:id/edit', to: 'posts#edit'
